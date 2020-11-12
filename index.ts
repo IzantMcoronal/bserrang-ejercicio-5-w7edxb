@@ -15,7 +15,7 @@ if (Math.random() >= 0.5) {
 }
 
 // Typamos el parametro de la funcion 1 al ser el operador a como numero y el parametro 2 como booleana y numero ya que es el operador c. La funcion la tipamos de 2 tipos, ya que puede dar 2 resultados, o bien una suma numerica o bien un string. 
-function d(param1: number, param2: boolean | number):number | String {
+function d(param1: number, param2: boolean | number): number | String {
   if (typeof param2 === "number") {
     return param1 + param2;
   } else {
