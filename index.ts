@@ -10,6 +10,7 @@ let b : string = "texto";
 // Aqui usamos el operador "|" ya que la variable puede ser de dos tipos, tanto un numero como booleana
 let c : boolean | number = true;
 
+// Condicional que determinara el tipo de dato de c
 if (Math.random() >= 0.5) {
   c = 100;
 }
