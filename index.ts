@@ -25,5 +25,5 @@ function d(param1: number, param2: boolean | number): number | String {
     return "el segundo parámetro no es un número";
   }
 }
-
+//Salida por consola
 console.log(d(a, c));
